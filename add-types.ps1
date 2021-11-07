@@ -1,0 +1,19 @@
+$libDir = "$psScriptRoot/lib"
+
+add-type -path $libDir/BouncyCastle.Crypto.dll
+add-type -path $libDir/itext.commons.dll
+add-type -path $libDir/itext.io.dll
+add-type -path $libDir/itext.kernel.dll
+add-type -path $libDir/itext.layout.dll
+add-type -path $libDir/System.Threading.Tasks.Extensions.dll
+add-type -path $libDir/Microsoft.Bcl.AsyncInterfaces.dll
+add-type -path $libDir/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+add-type -path $libDir/Microsoft.Extensions.DependencyInjection.dll
+add-type -path $libDir/Microsoft.Extensions.Logging.Abstractions.dll
+add-type -path $libDir/Microsoft.Extensions.Logging.dll
+add-type -path $libDir/Microsoft.Extensions.Options.dll
+add-type -path $libDir/Microsoft.Extensions.Primitives.dll
+add-type -path $libDir/System.Diagnostics.DiagnosticSource.dll
+add-type -path $libDir/System.Memory.dll
+add-type -path $libDir/System.Runtime.CompilerServices.Unsafe.dll
+add-type -path $libDir/System.ValueTuple.dll
